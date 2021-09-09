@@ -1,4 +1,14 @@
-# Countable
+# Content Harmony Edits
+
+Content Harmony created a fork for various changes on our public tool at https://www.contentharmony.com/tools/counter/
+
+## Content Harmony Changes:
+- Tracking line breaks as sentence markers.
+- Adding script file that gets pasted into our CMS.
+
+---
+
+# Standard Countable Readme
 
 [![Build Status](http://img.shields.io/travis/RadLikeWhoa/Countable.svg)](https://travis-ci.org/RadLikeWhoa/Countable)
 [![Code Climate](https://codeclimate.com/github/RadLikeWhoa/Countable/badges/gpa.svg)](https://codeclimate.com/github/RadLikeWhoa/Countable)
