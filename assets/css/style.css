@@ -64,9 +64,10 @@ table {
 h1,
 h2,
 h3,
+h4,
 p,
 pre {
-    margin-top: 0;
+    margin: 0;
 }
 body {
     margin: 0;
@@ -78,13 +79,17 @@ a {
     border-bottom: 1px solid;
 }
 h1 {
-    font-size: 2em;
+    font-size: 2.4em;
 }
 h2 {
-    font-size: 1.5em;
-    line-height: 1;
+    font-size: 1.8em;
+    line-height: 1.5;
 }
 h3 {
+    font-size: 1.4em;
+    line-height: 1.25;
+}
+h4 {
     font-size: 1.2em;
     line-height: 1.25;
 }
