@@ -1,3 +1,8 @@
+.container {
+    width: 100%;
+    max-width: 500px;
+}
+
 .cols-3 {
     display: flex;
     flex-wrap: wrap;
@@ -14,6 +19,15 @@
 .col-1 {
   width: 100%;
 }
+
+table {
+    margin: 1em;
+    width: 100%;
+    max-width: 100%;
+    border: 1px solid #e1e3e6;
+    background: #f9f9f9;
+}
+
 
 @media (min-width: 30em) {
     .col-2 {
