@@ -2,33 +2,13 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="description" content="Countable is a JavaScript function to add live paragraph-, word- and character-counting to an HTML element.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Countable.js — Live word-counting in JavaScript</title>
     <!--[if lt IE 9]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
     <link rel="stylesheet" href="assets/css/style.css">
-    <!--[if lt IE 9]>
-      <link rel="stylesheet" href="assets/css/ie.css">
-    <![endif]-->
-    <link rel="dns-prefetch" href="http://www.google-analytics.com">
-    <link rel="dns-prefetch" href="https://platform.twitter.com">
   </head>
   <body>
-    <header class="site-header">
-      <div class="wrap">
-        <h1 class="site-heading"><a href="http://github.com/RadLikeWhoa/Countable">Countable.js</a></h1>
-        <p class="intro">Countable is a JavaScript library to add <strong>live paragraph-, word- and character-counting</strong> to an HTML element. It is a <em>zero-dependency</em> library and comes in at just about <strong>1KB</strong> when minified and gzipped.</p>
-        <div class="grid">
-          <div class="col med-col-1-2">
-            <a id="github-button" href="http://github.com/RadLikeWhoa/Countable" class="blue-button">View on GitHub</a>
-          </div>
-          <div class="col med-col-1-2">
-            <a href="http://twitter.com/intent/tweet?url=http%3A%2F%2Fsacha.me%2FCountable%2F&amp;text=Countable.js%20%E2%80%94%20Live%20word-counting%20in%20JavaScript%20by%20%40sachaschmid.&amp;related=sachaschmid:Creator%20and%20designer%20of%20Countable" class="grey-button">Tweet</a>
-          </div>
-      </div>
-    </header>
     <section class="light-section" id="demo">
       <div class="demo wrap">
         <textarea class="demo-area" id="countableArea">Try it out yourself, Countable is enabled on this textarea. Just start typing... </textarea>
@@ -58,28 +38,6 @@
         </div>
       </div>
     </section>
-    <section class="dark-section">
-      <div class="wrap">
-        <pre><code class="terminal-line">yarn add countable</code></pre>
-        <p>The preferred method of installation is <a href="http://yarnpkg.com">yarn</a>. Alternatively, you can <a href="https://raw.github.com/RadLikeWhoa/Countable/master/Countable.js">download the script</a> directly. Out of the box, Countable can be used with AMD loaders (require.js), CommonJS loaders (node, browserify) or directly in the browser.</p>
-      </div>
-    </section>
-    <section class="light-section">
-      <div class="wrap">
-        <p>Countable offers an easy to understand API. With a single method call you can enable live paragraph-, word- and character-counting on a given HTML element.</p>
-        <pre><code>const area = document.getElementById('area')
-const callback = counter => console.log(counter)
-
-Countable.on(area, callback)</code></pre>
-        <p>There are other methods you can use, all of which are thorougly described in the code itself, as well as in the full documentation.</p>
-        <a class="orange-button" href="docs">View the full docs</a>
-      </div>
-    </section>
-    <footer class="site-footer">
-      <div class="wrap">
-        <p>Created by <a href="http://sacha.me">Sacha Schmid</a></p>
-      </div>
-    </footer>
     <script src="assets/js/main.js"></script>
   </body>
 </html>
